@@ -1,3 +1,5 @@
+-- https://datalemur.com/questions/matching-skills
+
 -- soln #1
 -- this works but won't work in case of duplicate records
 SELECT candidate_id FROM candidates

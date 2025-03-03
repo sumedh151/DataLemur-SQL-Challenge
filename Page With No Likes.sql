@@ -1,4 +1,5 @@
 -- https://datalemur.com/questions/sql-page-with-no-likes
+
 -- using except
 SELECT page_id FROM pages
 EXCEPT
