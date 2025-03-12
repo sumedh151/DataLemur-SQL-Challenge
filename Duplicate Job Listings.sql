@@ -1,3 +1,5 @@
+-- https://datalemur.com/questions/duplicate-job-listings
+
 SELECT COUNT (duplicates) AS duplicate_companies
 FROM (
   SELECT 
