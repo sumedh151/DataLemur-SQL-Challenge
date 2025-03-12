@@ -1,3 +1,5 @@
+-- https://datalemur.com/questions/sql-average-post-hiatus-1
+
 SELECT user_id , EXTRACT(DAY FROM MAX(post_date) - MIN(post_date)) as DAYS_BETWEEN
 FROM posts
 WHERE EXTRACT(YEAR FROM post_date) = 2021
